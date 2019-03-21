@@ -17,6 +17,11 @@
 
 }
 
+.grass {
+    background-image: url('/tiles/grass.png')
+    
+}
+
 .barrier {
     background-image: url('/tiles/barrier.png')
 
@@ -25,4 +30,8 @@
 .tree {
     background-image: url('/tiles/tree.png')
 
+}
+
+.sign {
+    background-image: url('/tiles/sign.png')
 }

@@ -10,10 +10,14 @@ function getTileSprite(type) {
             return 'ground'
         case 1:
             return 'path'
+        case 2:
+            return 'grass'
         case 5:
             return 'barrier'
         case 6:
             return 'tree'
+        case 7:
+            return 'sign'
     }
 }
 function MapTile(props) {
