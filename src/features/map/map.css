@@ -1,0 +1,28 @@
+.tile {
+    display: inline-flex;
+    
+}
+
+.row {
+    height: 32px;
+}
+
+.path {
+    background-image: url('/tiles/path.png')
+
+}
+
+.ground {
+    background-image: url('/tiles/ground.png')
+
+}
+
+.barrier {
+    background-image: url('/tiles/barrier.png')
+
+}
+
+.tree {
+    background-image: url('/tiles/tree.png')
+
+}
