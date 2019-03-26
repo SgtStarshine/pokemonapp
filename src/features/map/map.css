@@ -17,6 +17,11 @@
 
 }
 
+.grass {
+    background-image: url('/tiles/grass.png')
+    
+}
+
 .barrier {
     background-image: url('/tiles/barrier.png')
 
@@ -25,4 +30,28 @@
 .tree {
     background-image: url('/tiles/tree.png')
 
+}
+
+.sign {
+    background-image: url('/tiles/sign.png')
+}
+
+.npc01 {
+    background-image: url('/tiles/npc01.png')
+}
+
+.npc02 {
+    background-image: url('/tiles/npc02.png')
+}
+
+.npc03 {
+    background-image: url('/tiles/npc03.png')
+}
+
+.npc04 {
+    background-image: url('/tiles/npc04.png')
+}
+
+.npc05 {
+    background-image: url('/tiles/npc05.png')
 }

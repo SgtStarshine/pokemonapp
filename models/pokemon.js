@@ -4,7 +4,9 @@ module.exports = function(sequelize, DataTypes){
         types: DataTypes.ARRAY(DataTypes.TEXT),
         moves: DataTypes.ARRAY(DataTypes.TEXT),
         species: DataTypes.STRING,
-        sprites: DataTypes.ARRAY(DataTypes.TEXT)
+        sprites: DataTypes.ARRAY(DataTypes.TEXT),
+        stats: DataTypes.ARRAY(DataTypes.INTEGER),
+        abilities: DataTypes.STRING
     });
     Pokemon.belongsTo(Team,{foreignKey: "pokemonName",targetKey: "name"})
 }
